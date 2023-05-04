@@ -1,0 +1,90 @@
+MemTotal:        4026544 kB
+MemFree:          273344 kB
+MemAvailable:     974072 kB
+Buffers:           39368 kB
+Cached:           837688 kB
+SwapCached:            0 kB
+Active:          2902736 kB
+Inactive:         597168 kB
+Active(anon):    2625304 kB
+Inactive(anon):      324 kB
+Active(file):     277432 kB
+Inactive(file):   596844 kB
+Unevictable:        2468 kB
+Mlocked:            2468 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               368 kB
+Writeback:             0 kB
+AnonPages:       2606388 kB
+Mapped:           140324 kB
+Shmem:               944 kB
+KReclaimable:      79552 kB
+Slab:             150972 kB
+SReclaimable:      79552 kB
+SUnreclaim:        71420 kB
+KernelStack:        9168 kB
+PageTables:        24596 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2013272 kB
+Committed_AS:    6694720 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       35436 kB
+VmallocChunk:          0 kB
+Percpu:             1568 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    280576 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      202688 kB
+DirectMap2M:     3991552 kB
+DirectMap1G:     2097152 kB
+top - 12:08:13 up  1:25,  0 users,  load average: 0.68, 0.60, 0.55
+Tasks:  29 total,   1 running,  28 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  6.5 sy,  6.5 ni, 87.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3932.2 total,    256.2 free,   2742.0 used,    934.0 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    941.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 codespa+  20   0    1084      4      0 S   0.0   0.0   0:00.07 docker-init
+    7 codespa+  20   0    2512    580    516 S   0.0   0.0   0:00.00 sleep
+   23 root      20   0   12180   2184   1264 S   0.0   0.1   0:00.00 sshd
+   36 root      20   0 1370112  27264   1456 S   0.0   0.7   0:00.57 dockerd
+   85 root      20   0 1266884  20192   2188 S   0.0   0.5   0:00.88 containerd
+  263 codespa+  20   0    2612   1792   1692 S   0.0   0.0   0:00.01 sh
+  327 root      20   0    2612    596    524 S   0.0   0.0   0:00.00 sh
+  360 codespa+  20   0    2620    604    528 S   0.0   0.0   0:00.00 sh
+  367 codespa+  20   0  944688  65588  15576 S   0.0   1.6   0:11.25 node
+  379 codespa+  20   0  858144  42504  14816 S   0.0   1.1   0:06.34 node
+  658 codespa+  20   0    2612   1608   1508 S   0.0   0.0   0:00.01 sh
+  747 root      20   0    2612    532    464 S   0.0   0.0   0:00.00 sh
+ 1529 codespa+  20   0    2612   1628   1528 S   0.0   0.0   0:00.00 sh
+ 1601 root      20   0    2612    532    464 S   0.0   0.0   0:00.00 sh
+ 1823 codespa+  20   0    2612   1720   1620 S   0.0   0.0   0:00.00 sh
+ 1943 root      20   0    2612    532    460 S   0.0   0.0   0:00.00 sh
+ 2013 codespa+  20   0   11.1g 255216  16344 S   0.0   6.3   1:57.90 node
+ 2062 codespa+  20   0  589624  25224  13040 S   0.0   0.6   0:00.28 node
+ 2102 codespa+  20   0    2612   1568   1468 S   0.0   0.0   0:00.00 sh
+ 2187 root      20   0    2612    596    528 S   0.0   0.0   0:00.00 sh
+ 4370 codespa+  20   0    9128   3696   3240 R   0.0   0.1   0:00.00 top
+18792 codespa+  20   0    2612   1628   1528 S   0.0   0.0   0:00.00 sh
+18952 root      20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+19038 codespa+  20   0   11.1g 238392  15888 S   0.0   5.9   0:50.76 node
+19052 codespa+  20   0  835548  25932  15012 S   0.0   0.6   0:00.31 node
+19145 codespa+  20   0    2612   1612   1508 S   0.0   0.0   0:00.00 sh
+19311 root      20   0    2612    600    528 S   0.0   0.0   0:00.00 sh
+21334 codespa+  20   0   14916  11904   3620 S   0.0   0.3   0:00.81 bash
+25053 codespa+  20   0   14916  11712   3460 S   0.0   0.3   0:00.63 bash
+5.0.17(1)-release
