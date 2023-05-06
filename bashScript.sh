@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#HISTFILE=~/.bash_history
-#set -o history
-
-#export PATH = "$PATH:/path to directory"
-
 PS3="Select an action from the menu: "
 
 select opt in "List files" "Show free disk space" "Show system path" "Display command history" "Backup files" "Exit"
@@ -20,7 +15,6 @@ do
            echo "$opt - " $(pwd)
            echo " ";;
         "Display command history")
-           #echo "$opt - " $(history)
            echo "$opt - "
            cat ~/.bash_history
            echo " ";;
